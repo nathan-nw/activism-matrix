@@ -10,7 +10,7 @@ Empirically recreate DesJardine (2025), "The PSI Model for Predicting Activist E
 
 1. **Derive the rubric from the paper.** ✅ Done — `psi_campaign_coding_rubric.md` + `rubric_derivation_method.md`.
 2. **Stress-test the rubric on one real filing.** ✅ Done per changelog (Third Point–Campbell Soup SC 13D). Produced Rule 6 (whole-company sale → specific), Amendment 6a (mocking language as hostility indicator), and the launch-window timing finding. ✅ PROVENANCE VERIFIED 2026-08-30 — pulled the actual filing from EDGAR (SC 13D, Third Point LLC on Campbell Soup Co., filed 2018-08-09, accession 0001193125-18-244115, doc d593020dsc13d.htm). Both cited quotes ("the only justifiable outcome of the strategic review is for the Issuer to be sold to a strategic buyer"; the Ben Franklin "if you fail to plan, you are planning to fail" line) are verbatim in Item 4.
-2b. **Expand the stress-test into a pilot batch.** ⬜ Recommended before Stage 3 freezes the rubric. Deliberately hand/AI-code 20–40 campaigns chosen to span many demand types (whole-company sale, dual-class collapse, greenmail, spin-off, "explore alternatives", proxy fight, etc.) to flush out missing rules while the rubric can still change. Rule additions should asymptote fast; if they don't, widen the pilot. Every added rule is human-approved and logged in the rubric changelog.
+2b. **Expand the stress-test into a pilot batch — REQUIRED before the Stage 3 freeze, now in progress.** 🔄 The Stage 2 single-filing stress test surfaced a missing rule (Rule 6), which proves one filing is not enough to establish that the rubric is stable — so a pilot batch is a required gate before Stage 3 can freeze the rubric, not an optional extra. Hand/AI-code **5 campaigns** chosen to span distinct demand types (transaction opposition, board-control + operations, asset/real-estate separation, board + executive removal, negotiated governance) to flush out missing rules while the rubric can still change. Rule additions should asymptote fast; if new rules are still appearing at the end of the batch, widen it. Every added rule is human-approved and logged in the rubric changelog. Current status: 5-campaign slate selected and all verified on SEC EDGAR; coding underway. Slate and selection logic: see `step2b.md`.
 3. **Promote the rubric to a classification system prompt, then FREEZE it (v1.0).** ⬜ Next. Convert the rubric text into the LLM coding instructions, with the §4 JSON schema as required structured output. Version and lock the rubric before any production coding begins.
 4. **Assemble the sample from SEC EDGAR.** ⬜ Define the universe (filing type = SC 13D + amendments; date range; filters e.g. US targets, size floor; N campaigns) and pull Item 4 text + exhibit letters into a structured dataset.
 5. **Calibrate before coding.** ⬜ Run the pipeline on the paper's four worked examples (Kinross, Campbell, Huntsman, Bed Bath & Beyond). Must reproduce DesJardine's own classifications before touching the sample.
@@ -46,3 +46,14 @@ The instrument, the bulk coder, and the reliability check must stay independent 
 ## Verified source references
 
 - Third Point → Campbell Soup SC 13D: https://www.sec.gov/Archives/edgar/data/16732/000119312518244115/d593020dsc13d.htm (accession 0001193125-18-244115, filed 2018-08-09).
+
+
+## Changelog
+
+Tracks changes to this project plan. (The coding rubric keeps its own separate changelog in `psi_campaign_coding_rubric.md` §7.)
+
+### 2026-09-13
+- **Initial version committed.**
+- **Stage 2b promoted from "recommended" to a required gate** before the Stage 3 freeze. Trigger: the Stage 2 single-filing stress test (Third Point–Campbell Soup) surfaced a missing rule (Rule 6), showing that one filing cannot establish rubric stability — a pilot batch is required to confirm rule additions have asymptoted before the rubric is locked.
+- **Pilot batch sized at 5 campaigns** (previously 20–40) for this pass, selected to span distinct demand types; slate and selection logic recorded in `step2b.md`.
+- **Stage 2b marked in progress** (5-campaign slate verified on SEC EDGAR; coding underway).
