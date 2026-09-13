@@ -54,13 +54,19 @@
 
 **Construct definition (from paper):** Specificity is "the degree of detail and explicitness with which a shareholder outlines **the entirety of** operational or strategic actions that they want to see executed." Specific demands "mandate the entire set of actions a company should take," limiting managerial discretion and bounding total change. Broad demands "seek overall improvements … without detailing the exact operational or strategic measures," leaving eventual changes undefined and up to management post-engagement.
 
-### Decision rules stated by the author (apply verbatim)
+### Decision rules (apply verbatim)
+
+**Rules 1–5 — stated by the author (from the paper):**
+
 1. **Terminating a named transaction** (e.g., cancel a specific proposed acquisition) → specific.
 2. **Capital actions with defined magnitude** (e.g., "repurchase $X of shares," a defined buyback program) → specific.
 3. **"General improvements," "refocus the business," "unlock value," "review strategic alternatives"** without stipulated measures → broad.
 4. **Board composition changes (adding directors) → broad**, because the directors' eventual strategic/operational impact is undefined at demand time. This is the author's explicit rule; do not override it even when the activist names candidates.
 5. **Executive/director removal → broad** on specificity (eventual strategic change undefined) and simultaneously an input to hostility (names a person). Whether it scores hostile depends on delivery manner (Rule in §1).
-6. **Demand to sell the entire company → specific (score 4; 5 if a buyer or deal terms are stipulated).** *Researcher-added rule (Amendment 6, see Changelog), not stated in the paper.* Rationale: a whole-company sale bounds "the entirety of" the resulting change — the terminal state (company acquired, independent existence ends) is fully defined, with only counterparty and price left to discretion. This parallels the paper's treatment of named actions with defined scope, and is distinct from demanding a "strategic review" (broad, Rule 3), even when the sale is framed as the review's required outcome.
+
+**Rule 6 — researcher-added (not stated in the paper; see Changelog, Amendment 6):**
+
+6. **Demand to sell the entire company → specific (score 4; 5 if a buyer or deal terms are stipulated).** Rationale: a whole-company sale bounds "the entirety of" the resulting change — the terminal state (company acquired, independent existence ends) is fully defined, with only counterparty and price left to discretion. This parallels the paper's treatment of named actions with defined scope, and is distinct from demanding a "strategic review" (broad, Rule 3), even when the sale is framed as the review's required outcome.
 
 ### Handling multiple demands (operational decision, not in paper — flag for PI discussion)
 Campaigns typically bundle demands. Procedure:
