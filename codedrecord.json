@@ -1,0 +1,197 @@
+[
+  {
+    "campaign_id": "icahn_southeastern_dell_2013",
+    "activist": "Carl Icahn + Southeastern Asset Management (Schedule 13D group)",
+    "target": "Dell Inc.",
+    "filing_date": "2013-05-10",
+    "hostility_score": 4,
+    "hostility_evidence": [
+      "It is insulting to shareholders' intelligence for the Board to tell them that this Board only has the best interests of shareholders at heart…",
+      "This Board has brought that cynicism to new heights.",
+      "astonishingly, we believe the Board basically said 'thank you Michael for offering to purchase the company with the shareholders' own money at a bargain price.'",
+      "EITHER GIVE SHAREHOLDERS THE REAL CHOICE THEY ARE ENTITLED TO OR FACE THE LEGAL LIABILITY FOR YOUR FAILURES.",
+      "we will then, at the annual meeting, put up a slate of 12 directors to challenge the current board."
+    ],
+    "specificity_score": 5,
+    "demands": [
+      {
+        "demand_text": "Reject the Michael Dell/Silver Lake going-private transaction and instead adopt the Icahn/Southeastern recapitalization: holders elect $12.00/share cash or $12.00 in additional shares valued at $1.65/share, financed by existing cash + ~$5.2B new debt",
+        "specificity_sub_score": 5,
+        "author_rule_applied": "Rule 1 (terminate named transaction) + Rule 2 (defined-magnitude capital action)"
+      },
+      {
+        "demand_text": "Conditional: if the board does not deem the proposal 'superior,' run a proxy contest with a 12-director slate at the annual meeting",
+        "specificity_sub_score": null,
+        "author_rule_applied": "Rule 4 (board composition → broad) IF counted; treated here as a hostility threat, not a launch specificity demand — see flag"
+      }
+    ],
+    "specificity_evidence": [
+      "Dell shareholders would be given the opportunity to elect to receive a distribution of: (X) $12.00 per share in cash, or (Y) $12.00 in additional shares valued at $1.65 per share.",
+      "Financing for our proposal will be obtained from existing cash at Dell and approximately $5.2 billion in New debt.",
+      "We urge the Board to put our proposal before Dell's shareholders … in lieu of the Going Private Transaction."
+    ],
+    "archetype": "Harrowing hardline",
+    "flags": ["group_filing", "conditional_demand", "launch_window_intensity"],
+    "trajectory_note": "Launch window coded. Campaign escalated post-window (further public letters, litigation) — recorded as manner escalation only; hostility could reach 5 later. Do not fold into launch score.",
+    "confidence": "high",
+    "reasoning": "Lead demand terminates a named transaction (Rule 1) and specifies a defined-magnitude recap (Rule 2) → Specific 5. Manner is public, mocking, personally critical of Michael Dell, with proxy + litigation threats → Hostile 4 at launch (5 defensible; following Campbell launch-window precedent). Icahn alone 4.52%; 13D exists via group aggregation with Southeastern (12.7% combined)."
+  },
+  {
+    "campaign_id": "starboard_darden_2013",
+    "activist": "Starboard Value LP",
+    "target": "Darden Restaurants, Inc.",
+    "filing_date": "2013-12-23",
+    "hostility_score": 3,
+    "hostility_evidence": [
+      "Starboard believes that the plan outlined by management falls significantly short of the actions required to maximize shareholder value.",
+      "Starboard intends to closely monitor developments at the Issuer and engage in discussions with the Issuer, including discussions with members of management and the Board, as well as with other shareholders and interested parties."
+    ],
+    "specificity_score": 2,
+    "demands": [
+      {
+        "demand_text": "Management's announced Red Lobster separation plan 'falls significantly short'; implicitly seeks broader action than the announced plan",
+        "specificity_sub_score": 2,
+        "author_rule_applied": "Not Rule 1 (no clean 'terminate a named transaction'); reads as a call for a broader review → broad"
+      },
+      {
+        "demand_text": "Dramatically improve operating performance",
+        "specificity_sub_score": 1,
+        "author_rule_applied": "Rule 3 (general improvements → broad)"
+      },
+      {
+        "demand_text": "Realize substantial value from real estate holdings",
+        "specificity_sub_score": 2,
+        "author_rule_applied": "Named direction (real estate), no stipulated mechanism → broad"
+      },
+      {
+        "demand_text": "Explore other strategic options including alternative business sale or separation transactions",
+        "specificity_sub_score": 1,
+        "author_rule_applied": "Rule 3 (explore strategic alternatives → broad)"
+      },
+      {
+        "demand_text": "May make recommendations regarding corporate strategy, capital allocation, financial performance, and Board composition",
+        "specificity_sub_score": 1,
+        "author_rule_applied": "Rule 4 (board composition → broad); soft/non-committal"
+      }
+    ],
+    "specificity_evidence": [
+      "Starboard believes there is a significant opportunity to dramatically improve the operating performance at the Issuer, as well as opportunities to realize substantial value from the Issuer's real estate holdings and to explore other strategic options available to the Issuer to maximize shareholder value, including alternative business sale or separation transactions.",
+      "Starboard may make recommendations regarding corporate strategy, capital allocation, financial performance, and Board composition."
+    ],
+    "archetype": "Provisional: None — held out of archetype counts per §3 (hostility = 3, confirmed on review)",
+    "flags": ["ambiguous_hostility", "launch_window_intensity", "joint_filing"],
+    "trajectory_note": "Launch window (Dec 2013) coded. Campaign escalated sharply post-window (detailed multi-point operational turnaround plan and a full 12-director slate in 2014) — recorded as manner/specificity escalation only; do NOT fold into launch code. Escalated version would code far higher on both dimensions.",
+    "confidence": "high",
+    "reasoning": "Launch 13D is a bundle of broad, exploratory demands (Rules 3 and 4) → Specificity 2. Manner is publicly critical of the plan but engagement-oriented with no personal attacks, apparatus, or proxy threat → Hostility 3 (ambiguous; 2 defensible). Archetype held out pending resolution of the 3. Starboard alone 5.6% (single activist, joint entity filing)."
+  },
+  {
+    "campaign_id": "pershing_target_2007",
+    "activist": "Pershing Square Capital Management (William Ackman)",
+    "target": "Target Corporation",
+    "filing_date": "2007-07-16",
+    "hostility_score": 1,
+    "hostility_evidence": [
+      "The Issuer is a leading domestic retailer with a differentiated brand, significant growth opportunities and the strongest operating management in the retail industry.",
+      "The Reporting Persons believe that the Issuer's Common Stock is undervalued and intend to discuss with management ways in which this undervaluation can be corrected."
+    ],
+    "specificity_score": 1,
+    "demands": [
+      {
+        "demand_text": "Discuss with management ways to correct the perceived undervaluation of Target's stock",
+        "specificity_sub_score": 1,
+        "author_rule_applied": "Rule 3 (unlock value / correct undervaluation, no stipulated measures → broad)"
+      },
+      {
+        "demand_text": "May engage on strategy, business, assets, operations, capitalization, financial condition (open-ended)",
+        "specificity_sub_score": 1,
+        "author_rule_applied": "Rule 3 (general/exploratory → broad)"
+      }
+    ],
+    "specificity_evidence": [
+      "intend to discuss with management ways in which this undervaluation can be corrected",
+      "The Reporting Persons may engage the Issuer in discussions that may include matters relating to the Issuer's strategy, business, assets, operations, capitalization and/or financial condition"
+    ],
+    "archetype": "Gentle general",
+    "flags": ["launch_window_intensity", "derivatives_position"],
+    "trajectory_note": "Launch window (July 2007) coded. Campaign escalated sharply post-window (real-estate/REIT 'Target Property Trust' proposal, credit-card receivables monetization, later a contested proxy fight with a Pershing slate). Recorded as escalation only; do NOT fold into launch code — escalated version would code far higher on both dimensions.",
+    "confidence": "high",
+    "reasoning": "Launch 13D praises management ('strongest operating management in the retail industry') and frames intent as discussion → Hostility 1. Sole ask is to 'discuss ways to correct undervaluation' with no stipulated actions → Specificity 1 (Rule 3). Clean Gentle general. 9.6% stake but largely synthetic (call options + swaps). All exhibits procedural; substance entirely in Item 4."
+  },
+  {
+    "campaign_id": "thirdpoint_yahoo_2011",
+    "activist": "Third Point LLC (Daniel Loeb)",
+    "target": "Yahoo! Inc.",
+    "filing_date": "2011-09-08",
+    "hostility_score": 5,
+    "hostility_evidence": [
+      "abysmal performance over the last two and a half years",
+      "It is time that certain members of this Board were held accountable for its past failures",
+      "this Board's failures have destroyed value for all Yahoo stakeholders",
+      "we insist that Mr. Bostock ... promptly resign from the Board",
+      "We are prepared to propose a slate of directors at the Company's annual meeting next year"
+    ],
+    "specificity_score": 1,
+    "demands": [
+      {
+        "demand_text": "Demand resignation of named directors — Chairman Roy Bostock, Arthur Kern, Vyomesh Joshi (and Susan James)",
+        "specificity_sub_score": 1,
+        "author_rule_applied": "Rule 5 (director removal → broad on specificity; names people → feeds hostility)"
+      },
+      {
+        "demand_text": "Prepared to propose a slate of directors at the next annual meeting",
+        "specificity_sub_score": 1,
+        "author_rule_applied": "Rule 4 (board composition → broad)"
+      },
+      {
+        "demand_text": "Reserve rights to pursue strategy / capital structure / strategic alternatives (Item 4 boilerplate)",
+        "specificity_sub_score": 1,
+        "author_rule_applied": "Rule 3 (strategic alternatives → broad)"
+      }
+    ],
+    "specificity_evidence": [
+      "we insist that Mr. Bostock ... promptly resign from the Board",
+      "demand that fellow Directors Arthur Kern and Vyomesh Joshi ... join Mr. Bostock in resignation",
+      "the strategic alternatives that may be available to the Issuer"
+    ],
+    "archetype": "Adaptive aggressive",
+    "flags": ["item4_boilerplate_substance_in_letter"],
+    "trajectory_note": "Launch letter (Sept 2011) already at maximum hostility; Third Point launched hot, not an escalator. Campaign continued post-window (further engagement, board changes) — not used in launch code; kept outcome-blind.",
+    "confidence": "high",
+    "reasoning": "Launch letter makes personal attacks on named individuals (Bartz 'abysmal performance'; Bostock) plus board-body criticism and a proxy threat → Hostility 5. All demands are broad — director removal (Rule 5), a slate (Rule 4), strategic alternatives (Rule 3), no specific action → Specificity 1. Clean Adaptive aggressive. Third Point alone 5.15%. Substance is in the incorporated Exhibit 99.1 letter; Item 4 itself is boilerplate."
+  },
+  {
+    "campaign_id": "starboard_papajohns_2019",
+    "activist": "Starboard Value LP",
+    "target": "Papa John's International, Inc.",
+    "filing_date": "2019-02-14",
+    "hostility_score": 2,
+    "hostility_evidence": [
+      "the Issuer and Starboard entered into a Governance Agreement, dated February 4, 2019, in which the Issuer has agreed to (i) increase the size of the Board from six to nine directors, (ii) nominate and appoint Mr. Smith ... to the Board and (iii) appoint Mr. Smith as Chairman.",
+      "Starboard also has the option, exercisable at its discretion, to purchase up to an additional 50,000 shares of Series B Preferred Stock."
+    ],
+    "specificity_score": 1,
+    "demands": [
+      {
+        "demand_text": "Negotiated board arrangement: expand board 6→9, appoint Jeffrey Smith as director and Chairman (via Governance Agreement, by mutual agreement)",
+        "specificity_sub_score": 1,
+        "author_rule_applied": "Rule 4 (board composition → broad); obtained by agreement, not demanded"
+      },
+      {
+        "demand_text": "$200M Series B Convertible Preferred investment + option for 50,000 more; participation rights in future equity offerings",
+        "specificity_sub_score": null,
+        "author_rule_applied": "Not a demand ON the company — Starboard providing capital / taking governance rights; not a Rule 2 capital-action demand"
+      }
+    ],
+    "specificity_evidence": [
+      "the Issuer has agreed to (i) increase the size of the Board from six to nine directors, (ii) nominate and appoint Mr. Smith ... to the Board and (iii) appoint Mr. Smith as Chairman"
+    ],
+    "archetype": "Gentle general",
+    "flags": [
+      "negotiated_investment_not_demand_campaign",
+      "initial_vs_amendment_verify"
+    ],
+    "trajectory_note": "Launch (Feb 2019) coded. Cooperative/negotiated from the outset — Starboard entered as a strategic investor with agreed board representation, not a contested campaign. Confirm initial-vs-amendment on the cover page.",
+    "confidence": "medium",
+    "reasoning": "Negotiated $200M convertible preferred investment plus a Governance Agreement giving Starboard board expansion and the chairmanship by mutual agreement; no criticism or threats → Relational (coded 2; 1 defensible if Item 4 praises management). Only concrete change is board composition (Rule 4 → broad); no specific operational/strategic demand → Specificity 1. Clean Gentle general. 9.99% as-converted, mostly Series B convertible preferred."
+  }
+]
