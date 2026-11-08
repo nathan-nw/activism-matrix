@@ -8,7 +8,7 @@
     "hostility_evidence": [
       "It is insulting to shareholders' intelligence for the Board to tell them that this Board only has the best interests of shareholders at heart…",
       "This Board has brought that cynicism to new heights.",
-      "astonishingly, we believe the Board basically said 'thank you Michael for offering to purchase the company with the shareholders' own money at a bargain price.'",
+      "astonishingly, we believe the Board basically said \"thank you Michael for offering to purchase the company with the shareholders' own money at a bargain price",
       "EITHER GIVE SHAREHOLDERS THE REAL CHOICE THEY ARE ENTITLED TO OR FACE THE LEGAL LIABILITY FOR YOUR FAILURES.",
       "we will then, at the annual meeting, put up a slate of 12 directors to challenge the current board."
     ],
@@ -28,7 +28,7 @@
     "specificity_evidence": [
       "Dell shareholders would be given the opportunity to elect to receive a distribution of: (X) $12.00 per share in cash, or (Y) $12.00 in additional shares valued at $1.65 per share.",
       "Financing for our proposal will be obtained from existing cash at Dell and approximately $5.2 billion in New debt.",
-      "We urge the Board to put our proposal before Dell's shareholders … in lieu of the Going Private Transaction."
+      "We urge the Board to put our proposal before Dell's shareholders … in lieu of the Going Private Transaction"
     ],
     "archetype": "Harrowing hardline",
     "flags": ["group_filing", "conditional_demand", "launch_window_intensity"],
@@ -166,8 +166,8 @@
     "filing_date": "2019-02-14",
     "hostility_score": 2,
     "hostility_evidence": [
-      "the Issuer and Starboard entered into a Governance Agreement, dated February 4, 2019, in which the Issuer has agreed to (i) increase the size of the Board from six to nine directors, (ii) nominate and appoint Mr. Smith ... to the Board and (iii) appoint Mr. Smith as Chairman.",
-      "Starboard also has the option, exercisable at its discretion, to purchase up to an additional 50,000 shares of Series B Preferred Stock."
+      "the Issuer and Starboard entered into a Governance Agreement, dated February 4, 2019, in which the Issuer has agreed to (i) increase the size of the Board from six to nine directors, (ii) nominate and appoint Mr. Smith ... to the Board and (iii) appoint Mr. Smith as Chairman of the Board",
+      "Starboard also has the option, exercisable at its discretion, to purchase up to an additional 50,000 shares of Series B Preferred Stock"
     ],
     "specificity_score": 1,
     "demands": [
@@ -183,15 +183,14 @@
       }
     ],
     "specificity_evidence": [
-      "the Issuer has agreed to (i) increase the size of the Board from six to nine directors, (ii) nominate and appoint Mr. Smith ... to the Board and (iii) appoint Mr. Smith as Chairman"
+      "the Issuer has agreed to (i) increase the size of the Board from six to nine directors, (ii) nominate and appoint Mr. Smith ... to the Board and (iii) appoint Mr. Smith as Chairman of the Board"
     ],
     "archetype": "Gentle general",
     "flags": [
-      "negotiated_investment_not_demand_campaign",
-      "initial_vs_amendment_verify"
+      "negotiated_investment_not_demand_campaign"
     ],
-    "trajectory_note": "Launch (Feb 2019) coded. Cooperative/negotiated from the outset — Starboard entered as a strategic investor with agreed board representation, not a contested campaign. Confirm initial-vs-amendment on the cover page.",
-    "confidence": "medium",
-    "reasoning": "Negotiated $200M convertible preferred investment plus a Governance Agreement giving Starboard board expansion and the chairmanship by mutual agreement; no criticism or threats → Relational (coded 2; 1 defensible if Item 4 praises management). Only concrete change is board composition (Rule 4 → broad); no specific operational/strategic demand → Specificity 1. Clean Gentle general. 9.99% as-converted, mostly Series B convertible preferred."
+    "trajectory_note": "Launch (Feb 2019) coded. Cooperative/negotiated from the outset — Starboard entered as a strategic investor with agreed board representation, not a contested campaign. Cover page confirms original SC 13D (Amendment No. left blank).",
+    "confidence": "high",
+    "reasoning": "Negotiated $200M convertible preferred investment plus a Governance Agreement giving Starboard board expansion and the chairmanship by mutual agreement; no criticism or threats → Relational 2 (factual, cooperative tone without explicit praise of management; confirmed on review). Only concrete change is board composition (Rule 4 → broad); no specific operational/strategic demand → Specificity 1. Clean Gentle general. 9.99% as-converted, mostly Series B convertible preferred."
   }
 ]
